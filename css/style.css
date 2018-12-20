@@ -1,0 +1,138 @@
+/* Required height of parents of the Full Page Intro and Intro itself */
+html,
+body,
+.view {
+  height: 100%; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: Fira Code, sans-serif;
+    /*font-family: 'Text Me One', sans-serif;*/
+}
+
+.banner-text {
+    margin: 22em 30 10em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.72);
+    display: inline-block;
+    padding: 4em;
+}
+
+.banner-text h1 {
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 900;
+}
+
+.banner-text h4 {
+    font-size: 1.2em;
+    color: #cac7c8;
+    margin-top: 1em;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.btn.btn-flat {
+    font-weight: 500;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: inherit
+}
+
+.btn.btn-flat:not([disabled]):not(.disabled):active {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.btn-floating {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    width: 47px;
+    height: 47px;
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer
+}
+
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px
+}
+
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff
+}
+
+.btn-floating:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)
+}
+
+.btn-floating:before {
+    -webkit-border-radius: 0;
+    border-radius: 0
+}
+
+.btn-floating.btn-sm {
+    width: 36.15385px;
+    height: 36.15385px
+}
+
+.btn-floating.btn-sm i {
+    font-size: .96154rem;
+    line-height: 36.15385px
+}
+
+.btn-floating.btn-lg {
+    width: 61.1px;
+    height: 61.1px
+}
+
+.btn-floating.btn-lg i {
+    font-size: 1.625rem;
+    line-height: 61.1px
+}
+
+.card .card-circle {
+    border: 2px solid #e0e0e0;
+    height: 7.5rem;
+    width: 7.5rem;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.card .card-circle .fa {
+    font-size: 4rem
+}
+
+.contact-section .form .btn-floating {
+    float: right;
+    position: relative;
+    bottom: 3rem;
+    margin-right: 0
+}
+
+.contact-section .contact {
+    -webkit-border-radius: 0 .25rem .25rem 0;
+    border-radius: 0 .25rem .25rem 0;
+    background-color: #103f6d
+}
+
+.contact-section .contact .fa {
+    color: #6b89a5
+}
